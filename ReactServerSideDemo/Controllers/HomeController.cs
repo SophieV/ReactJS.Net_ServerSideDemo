@@ -38,7 +38,7 @@ namespace ReactServerSideDemo.Controllers
 
         public ActionResult Index()
         {
-            return View();
+            return View(_comments);
         }
 
         [OutputCache(Location = OutputCacheLocation.None)]
